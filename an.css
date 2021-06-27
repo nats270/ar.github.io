@@ -1,0 +1,32 @@
+#container {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background: white;
+}
+#animate {
+  display: block;
+	width: 50px;
+	height: 50px;
+	border-bottom : 25px solid #06A8FF;
+	border-right: 25px solid #06A8FF;
+	position:absolute;
+	
+}
+#side {
+  width: 50px;
+  height: 50px;
+ 
+  border-bottom : 25px solid #06A8FF ;
+  border-right: 25px solid #06A8FF;
+  transform: rotate(-45deg);
+  background: white;
+  position: relative;
+  animation: mymoveaa 7s ;
+  animation-timing-function: linear;
+}
+
+@keyframes mymoveaa {
+  from {left: 0px;}
+  to {left: 80px;}
+}
